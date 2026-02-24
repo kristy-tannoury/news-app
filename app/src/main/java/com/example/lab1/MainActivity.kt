@@ -30,7 +30,7 @@ class MainActivity : ComponentActivity() {
 
         setContent {
             Lab1Theme {
-                // Light purple-ish background like your screenshot
+
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = Color(0xFFF4F1FF)
@@ -114,7 +114,7 @@ fun NewsScreen() {
         ) {
             items(newsList) { item ->
                 NewsCard(item)
-                // Bonus #1: Divider between items
+
                 HorizontalDivider(
                     thickness = 1.dp,
                     color = Color(0xFFDDD6F3)
